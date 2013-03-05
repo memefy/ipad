@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+<id>Memefy</id>
+<name>memefy</name>
+<version>1.2.0</version>
+<publisher>Christopher Duell</publisher>
+<url>http://memefy.com</url>
+<description>Create and share custom meme images, in seconds</description>
+<copyright>2011 Christopher Duell</copyright>
+<icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+<guid>f6a6392c-1d27-4fc5-bdd8-a0ece6d22c47</guid>
+	<iphone>
+		<orientations device="iphone">
+			<orientation>Ti.UI.PORTRAIT</orientation>
+		</orientations>
+		<orientations device="ipad">
+			<orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+			<orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+			<orientation>Ti.UI.PORTRAIT</orientation>
+			<orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+		</orientations>
+	</iphone>
+	<android xmlns:android="http://schemas.android.com/apk/res/android">
+	</android>
+	<modules>
+	</modules>
+</ti:app>
